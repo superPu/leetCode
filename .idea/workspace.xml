@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b62610-7875-43f0-8aa3-ae5d0d033c2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/ExpandArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListDemo/MyLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListDemo/pic/insertOrdelete.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListDemo/pic/single.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedListDemo/链表记录.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedListDemo/链表记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListDemo/链表记录.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListDemo/链表记录.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="72">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="600">
+                <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -144,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601006523672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601006730209" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -230,7 +226,7 @@
       <updated>1600672969947</updated>
       <workItem from="1600672971784" duration="8251000" />
       <workItem from="1600935456743" duration="10000" />
-      <workItem from="1600935470409" duration="8189000" />
+      <workItem from="1600935470409" duration="8442000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1600674562492</created>
@@ -239,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600674562494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加链表代码">
+      <created>1601006714598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601006714598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16450000" />
+    <option name="totallyTimeSpent" value="16703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-262" width="2560" height="1440" extended-state="0" />
@@ -287,7 +290,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="添加链表代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加链表代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -382,8 +386,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedListDemo/链表记录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="600">
+            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
         </state>
