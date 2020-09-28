@@ -1,6 +1,4 @@
-package LinkedListDemo;
-
-
+package linkedListDemo;
 /**
  * @ClassName MyLink
  * @Description java实现链表的操作
@@ -24,7 +22,6 @@ public class MyLink {
         public Node(int data){
             this.data=data;
         }
-
     }
 
 
@@ -55,7 +52,6 @@ public class MyLink {
                 System.out.println("链表的数据 {"+temp.data+"}");
                 temp=temp.next;
             }
-
         }
 
     }
@@ -108,7 +104,6 @@ public class MyLink {
      * @param index
      */
     public void deleteByIndex(int index){
-
         //判断位置是否合法
         if(index<1||index>length()+1){
             System.out.println("插入的位置不合法");
@@ -124,6 +119,23 @@ public class MyLink {
              }
          }
          temp=temp.next;
+
+    }
+
+
+    public static void main(String[] args) {
+
+        addNode(1);
+        addNode(2);
+        addNode(3);
+        addNode(4);
+        addNode(5);
+
+        forNode(head);
+
+        System.out.println("单链表");length();
+
+
 
     }
 
