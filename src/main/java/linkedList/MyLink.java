@@ -1,4 +1,4 @@
-package linkedListDemo;
+package linkedList;
 /**
  * @ClassName MyLink
  * @Description java实现链表的操作
