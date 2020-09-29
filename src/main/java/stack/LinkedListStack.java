@@ -1,5 +1,4 @@
 package stack;
-
 /**
  * @ClassName LinkedListStack
  * @Description 基于链表实现栈的操作,链表实现的栈是链式栈，没有大小的限制
@@ -9,18 +8,13 @@ package stack;
  **/
 public class LinkedListStack {
 
-
     private Node head=null;
-
-
     /**
      * 数据入栈
      * @param value
      */
     public void push(int value){
-
         Node newNode=new Node(value,null);
-
         //判断是否栈为空
         if(head==null){
             head=newNode;
@@ -46,7 +40,6 @@ public class LinkedListStack {
 
 
     public void printAll(){
-
         Node p=head;
         while (p!=null){
             System.out.println(p.data+" ");
@@ -54,6 +47,7 @@ public class LinkedListStack {
         }
 
     }
+
 
     private static class Node{
 
@@ -86,7 +80,6 @@ public class LinkedListStack {
 
     public static void main(String[] args) {
         LinkedListStack stack=new LinkedListStack();
-
         stack.push(1);
         stack.push(2);
         stack.push(3);
