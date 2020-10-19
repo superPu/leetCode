@@ -1,6 +1,6 @@
 package queue;
 /**
- * @ClassName ArrayQueue
+ * @ClassName ArrayQueue 基于数组的队列
  * @Description 基于数组的队列
  * @Author pujinwen
  * @Date 2020-09-29 11:14
@@ -13,17 +13,14 @@ public class ArrayQueue {
     private String[] items;
 
     private int size=0;
-
     /**
      * head指针
      */
     private int head=0;
-
     /**
      * tail指针
      */
     private int tail=0;
-
 
     public ArrayQueue(int capacity){
         items=new String[capacity];
